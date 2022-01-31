@@ -1,0 +1,221 @@
+\hypertarget{classWordData}{\section{Word\-Data Class Reference}
+\label{classWordData}\index{Word\-Data@{Word\-Data}}
+}
+
+
+Word Data object class containing a word and its occurence rate.  
+
+
+
+
+{\ttfamily \#include $<$Word\-Data.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classWordData_a5b4a15f68dedff06dccfa3ac69a4a144}{{\bfseries Word\-Data} (string wrd=\char`\"{}\char`\"{}, int cnt=1)}\label{classWordData_a5b4a15f68dedff06dccfa3ac69a4a144}
+
+\item 
+void \hyperlink{classWordData_ac0b321b6cc7e3d7a352e63afd6d54a36}{set\-Word} (string wrd)
+\begin{DoxyCompactList}\small\item\em Sets the word. \end{DoxyCompactList}\item 
+void \hyperlink{classWordData_a861d4ccae7e79af11bfb6d39ec5ee868}{set\-Count} (int cnt)
+\begin{DoxyCompactList}\small\item\em Sets the occurence rate of the word. \end{DoxyCompactList}\item 
+void \hyperlink{classWordData_a9e5e59a1550b3877d464ec7e1599177f}{set\-Word\-Data} (string, int)
+\begin{DoxyCompactList}\small\item\em Set Whole \hyperlink{classWordData}{Word\-Data} Object. \end{DoxyCompactList}\item 
+string \hyperlink{classWordData_a0002c491de4f4bd013a1b5255024a260}{get\-Word} () const 
+\begin{DoxyCompactList}\small\item\em Gets the current word of the \hyperlink{classWordData}{Word\-Data} Object. \end{DoxyCompactList}\item 
+int \hyperlink{classWordData_ac60a4211f9a35484ef4aaf3ddce015a0}{get\-Count} () const 
+\begin{DoxyCompactList}\small\item\em Gets the occurence rate of the word. \end{DoxyCompactList}\item 
+void \hyperlink{classWordData_a68428bdb3ed9b1aafa8e3aa144decec6}{inc\-Count} (int inc=1)
+\begin{DoxyCompactList}\small\item\em Increment the count of the word by 1. \end{DoxyCompactList}\item 
+bool \hyperlink{classWordData_a8feae3c1fd0e169b85e8a2ec613c5847}{operator$<$} (\hyperlink{classWordData}{Word\-Data})
+\begin{DoxyCompactList}\small\item\em overload the $<$ operator \end{DoxyCompactList}\item 
+bool \hyperlink{classWordData_a1ba05f19de8fa4a88cfad83858be4215}{operator$<$=} (\hyperlink{classWordData}{Word\-Data})
+\begin{DoxyCompactList}\small\item\em overload the $<$= operator \end{DoxyCompactList}\item 
+bool \hyperlink{classWordData_a6d5aed2edb9d22adac6e1b4a8c270163}{operator$>$} (\hyperlink{classWordData}{Word\-Data})
+\begin{DoxyCompactList}\small\item\em overload the $>$ operator \end{DoxyCompactList}\item 
+bool \hyperlink{classWordData_a6dcfbda8cee7d0c670122e565bc5d88e}{operator$>$=} (\hyperlink{classWordData}{Word\-Data})
+\begin{DoxyCompactList}\small\item\em overload the $>$= operator \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Word Data object class containing a word and its occurence rate. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classWordData_ac60a4211f9a35484ef4aaf3ddce015a0}{\index{Word\-Data@{Word\-Data}!get\-Count@{get\-Count}}
+\index{get\-Count@{get\-Count}!WordData@{Word\-Data}}
+\subsubsection[{get\-Count}]{\setlength{\rightskip}{0pt plus 5cm}int Word\-Data\-::get\-Count (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classWordData_ac60a4211f9a35484ef4aaf3ddce015a0}
+
+
+Gets the occurence rate of the word. 
+
+\begin{DoxyReturn}{Returns}
+the count 
+\end{DoxyReturn}
+\hypertarget{classWordData_a0002c491de4f4bd013a1b5255024a260}{\index{Word\-Data@{Word\-Data}!get\-Word@{get\-Word}}
+\index{get\-Word@{get\-Word}!WordData@{Word\-Data}}
+\subsubsection[{get\-Word}]{\setlength{\rightskip}{0pt plus 5cm}string Word\-Data\-::get\-Word (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classWordData_a0002c491de4f4bd013a1b5255024a260}
+
+
+Gets the current word of the \hyperlink{classWordData}{Word\-Data} Object. 
+
+\begin{DoxyReturn}{Returns}
+the word 
+\end{DoxyReturn}
+\hypertarget{classWordData_a68428bdb3ed9b1aafa8e3aa144decec6}{\index{Word\-Data@{Word\-Data}!inc\-Count@{inc\-Count}}
+\index{inc\-Count@{inc\-Count}!WordData@{Word\-Data}}
+\subsubsection[{inc\-Count}]{\setlength{\rightskip}{0pt plus 5cm}void Word\-Data\-::inc\-Count (
+\begin{DoxyParamCaption}
+\item[{int}]{inc = {\ttfamily 1}}
+\end{DoxyParamCaption}
+)}}\label{classWordData_a68428bdb3ed9b1aafa8e3aa144decec6}
+
+
+Increment the count of the word by 1. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em inc} & is the amount to increment by and is set to 1 \\
+\hline
+\end{DoxyParams}
+\hypertarget{classWordData_a8feae3c1fd0e169b85e8a2ec613c5847}{\index{Word\-Data@{Word\-Data}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!WordData@{Word\-Data}}
+\subsubsection[{operator$<$}]{\setlength{\rightskip}{0pt plus 5cm}bool Word\-Data\-::operator$<$ (
+\begin{DoxyParamCaption}
+\item[{{\bf Word\-Data}}]{arg}
+\end{DoxyParamCaption}
+)}}\label{classWordData_a8feae3c1fd0e169b85e8a2ec613c5847}
+
+
+overload the $<$ operator 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arg} & the argument to be tested against \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if $<$ arg 
+\end{DoxyReturn}
+\hypertarget{classWordData_a1ba05f19de8fa4a88cfad83858be4215}{\index{Word\-Data@{Word\-Data}!operator$<$=@{operator$<$=}}
+\index{operator$<$=@{operator$<$=}!WordData@{Word\-Data}}
+\subsubsection[{operator$<$=}]{\setlength{\rightskip}{0pt plus 5cm}bool Word\-Data\-::operator$<$= (
+\begin{DoxyParamCaption}
+\item[{{\bf Word\-Data}}]{arg}
+\end{DoxyParamCaption}
+)}}\label{classWordData_a1ba05f19de8fa4a88cfad83858be4215}
+
+
+overload the $<$= operator 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arg} & the argument to be tested against \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if $<$= arg 
+\end{DoxyReturn}
+\hypertarget{classWordData_a6d5aed2edb9d22adac6e1b4a8c270163}{\index{Word\-Data@{Word\-Data}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!WordData@{Word\-Data}}
+\subsubsection[{operator$>$}]{\setlength{\rightskip}{0pt plus 5cm}bool Word\-Data\-::operator$>$ (
+\begin{DoxyParamCaption}
+\item[{{\bf Word\-Data}}]{arg}
+\end{DoxyParamCaption}
+)}}\label{classWordData_a6d5aed2edb9d22adac6e1b4a8c270163}
+
+
+overload the $>$ operator 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arg} & the argument to be tested against \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if $>$ arg 
+\end{DoxyReturn}
+\hypertarget{classWordData_a6dcfbda8cee7d0c670122e565bc5d88e}{\index{Word\-Data@{Word\-Data}!operator$>$=@{operator$>$=}}
+\index{operator$>$=@{operator$>$=}!WordData@{Word\-Data}}
+\subsubsection[{operator$>$=}]{\setlength{\rightskip}{0pt plus 5cm}bool Word\-Data\-::operator$>$= (
+\begin{DoxyParamCaption}
+\item[{{\bf Word\-Data}}]{arg}
+\end{DoxyParamCaption}
+)}}\label{classWordData_a6dcfbda8cee7d0c670122e565bc5d88e}
+
+
+overload the $>$= operator 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arg} & the argument to be tested against \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if $>$= arg 
+\end{DoxyReturn}
+\hypertarget{classWordData_a861d4ccae7e79af11bfb6d39ec5ee868}{\index{Word\-Data@{Word\-Data}!set\-Count@{set\-Count}}
+\index{set\-Count@{set\-Count}!WordData@{Word\-Data}}
+\subsubsection[{set\-Count}]{\setlength{\rightskip}{0pt plus 5cm}void Word\-Data\-::set\-Count (
+\begin{DoxyParamCaption}
+\item[{int}]{cnt}
+\end{DoxyParamCaption}
+)}}\label{classWordData_a861d4ccae7e79af11bfb6d39ec5ee868}
+
+
+Sets the occurence rate of the word. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cnt} & the number of times it occurs \\
+\hline
+\end{DoxyParams}
+\hypertarget{classWordData_ac0b321b6cc7e3d7a352e63afd6d54a36}{\index{Word\-Data@{Word\-Data}!set\-Word@{set\-Word}}
+\index{set\-Word@{set\-Word}!WordData@{Word\-Data}}
+\subsubsection[{set\-Word}]{\setlength{\rightskip}{0pt plus 5cm}void Word\-Data\-::set\-Word (
+\begin{DoxyParamCaption}
+\item[{string}]{wrd}
+\end{DoxyParamCaption}
+)}}\label{classWordData_ac0b321b6cc7e3d7a352e63afd6d54a36}
+
+
+Sets the word. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em wrd} & the word to be set \\
+\hline
+\end{DoxyParams}
+\hypertarget{classWordData_a9e5e59a1550b3877d464ec7e1599177f}{\index{Word\-Data@{Word\-Data}!set\-Word\-Data@{set\-Word\-Data}}
+\index{set\-Word\-Data@{set\-Word\-Data}!WordData@{Word\-Data}}
+\subsubsection[{set\-Word\-Data}]{\setlength{\rightskip}{0pt plus 5cm}void Word\-Data\-::set\-Word\-Data (
+\begin{DoxyParamCaption}
+\item[{string}]{wrd, }
+\item[{int}]{cnt}
+\end{DoxyParamCaption}
+)}}\label{classWordData_a9e5e59a1550b3877d464ec7e1599177f}
+
+
+Set Whole \hyperlink{classWordData}{Word\-Data} Object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em wrd} & the word to be set \\
+\hline
+{\em cnt} & the number of times it occurs \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{WordData_8h}{Word\-Data.\-h}\item 
+\hyperlink{WordData_8cpp}{Word\-Data.\-cpp}\end{DoxyCompactItemize}
